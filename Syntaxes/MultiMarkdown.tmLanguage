@@ -8,6 +8,7 @@
 		<string>markdown</string>
 		<string>mdown</string>
 		<string>markdn</string>
+		<string>text</string>
 	</array>
 	<key>firstLineMatch</key>
 	<string>^\S.*?:\s*\S.*?\s*$</string>
@@ -171,7 +172,7 @@
 				</dict>
 				<dict>
 					<key>begin</key>
-					<string>^([ ]{0,3})[^\s\*].*?\|.*|\[.*?\](\[.*?\])?[ \t]*$\n?</string>
+					<string>^(([ ]{0,3})[^\s\*].*?\|.*$\n?)|(\[.*?\](\[.*?\])?[ \t]*$\n)</string>
 					<key>end</key>
 					<string>^(?!((.*\|.*)|\[.*\]|$))</string>
 					<key>name</key>
