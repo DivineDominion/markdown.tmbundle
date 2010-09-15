@@ -20,7 +20,7 @@ fi
 
 cd "${TM_MULTIMARKDOWN_PATH:-$HOME/Library/Application Support/MultiMarkdown}"
 cd bin
-./mmd2XHTML.pl</string>
+./mmd2ZettelXHTML.pl</string>
 	<key>fallbackInput</key>
 	<string>document</string>
 	<key>input</key>
